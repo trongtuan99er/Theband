@@ -1,0 +1,72 @@
+/* reponsive pc */
+@media (min-width: 1024px){
+        
+}
+/* repon tablet and mobile  */
+@media (max-width: 1023px){
+        .btn {
+                padding: 15px 16px;
+        }
+        .contact-form .input-control{
+                padding: 15px ;
+        }
+       
+        #footer .social {
+                font-size: 48px;
+                margin: 0px 8px;
+        }
+        #footer .copyright {
+                font-size: 36px;
+        }
+}
+
+/* REP9OM TABLET */
+@media (min-width: 740px) and (max-width: 1023px){
+        
+}
+/* moblie reponsive */
+@media (max-width: 739px){
+        .s-full-width,
+        .s-col-full{
+                width: 100%;
+        }
+        #header {
+                overflow: hidden;
+        }
+        #header .search-icon {
+                display: none;
+        }
+        #header .moblie-menu-btn{
+                display: block;
+        }
+
+        #nav{
+                display: block;
+        }
+        #nav > li{
+                display: block;
+                /* dùng để hiển thị thẻ li dạng 1 hàng */
+        }
+        #nav > li:first-child{
+                display: inline-block;
+        }
+        #nav .subnav {
+                position: initial;
+                background-color: #333;
+        }
+       #nav .subnav a {
+                color: #fff;
+                padding: 5px 46px;
+       }
+     
+       #content .mem-name {
+               width: 60%;
+       }
+       .contact-form {
+               margin-top: 16px;
+       }
+       .s-mt-8 {
+               margin-top: 8px !important;
+       }
+       
+}
